@@ -28,6 +28,10 @@
  <div class="container border" id="help" style="background-color: rgb(237, 218, 227);">
     <p class="font-weight-bold">Help report</p> 
  </div>
+ <div class="container">
+    <button type="button"   class="btn btn-primary"   onclick="newGame()">New Game</button>
+    </div>
+    <br>
     <br>
 
     
@@ -190,7 +194,7 @@
         document.getElementById("score").innerHTML = "Score is 0"
         for (var i = 0; i <= 24; i++) {
             if(i != 12)
-                document.getElementById(ids[i]).src = "./chest.jpeg"
+                document.getElementById(ids[i]).src = "./chest.jpg"
         }
 
 
